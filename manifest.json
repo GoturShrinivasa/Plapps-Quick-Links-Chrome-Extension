@@ -1,0 +1,13 @@
+{
+    "manifest_version": 2,
+  
+    "name": "Plapps Quick Links",
+    "description": "This extension will helps to navigate to the Plapps home pages just by single click on the link",
+    "version": "1.0.0",
+    "icons": { "128": "quickLinkIcon _128.png" },
+    "browser_action": {
+      "default_icon": "quickLinkIcon.png",
+      "default_popup": "popup.html"
+    },
+    "permissions": ["activeTab"]
+  }

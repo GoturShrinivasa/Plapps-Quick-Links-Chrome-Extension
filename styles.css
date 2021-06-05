@@ -1,0 +1,44 @@
+body {
+    background-color: white;
+    border: 1px solid green;
+}
+.logo {    
+    padding-left: 10px;
+  }
+
+.logo-icon {
+    width: 40px;
+  }
+.flex-container {
+    display: flex;
+    flex-direction: column; 
+    margin-left: 12px;
+}
+.item {    
+    justify-content: space-between;
+    width: auto;
+    height: auto;
+    overflow-wrap: break-word;
+}
+.item:hover {
+    background-color: lightgrey;
+  }
+  a {
+      color: black;
+  }
+a:visited {
+    color: black;
+}
+  a:link {
+    text-decoration: none;
+  }
+  a:hover {
+    cursor: pointer; 
+    text-decoration: underline; 
+    color: blue;
+  }
+
+  p{
+      font-size: large;
+  }
+  
